@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo de estilos</title>
+    <link rel="stylesheet" href="misestilos.css">
+</head>
+<body>
+    <h1>Título rojo (selector de tipos)</h1>
+    <p>Los párrafos son azules. Se usa un selector de tipos para individualizarlos.</p>
+    <p class="invertido">Una clase de párrafo especial. La clase se llama "invertido"
+        y el selector es un selector de clases.
+        El texto es blanco sobre un fondo negro
+    </p>
+    <p class="colorido">Este párrafo usa otra clase llamada "colorido". El fondo es
+        amarillo y el texto es verde. 
+        Esta es una clase genérica que se puede aplicar a cualquier elemento,
+        no solamente a los párrafos.
+    </p>
+    <p>Por ejemplo, una palabra en negrita (Elemento B de HTML) se verá así
+        <b>con negritas y texto azul,</b> pero un elemento B con el atributo 
+        CLASS="colorido" se verá así: <b class="colorido"> texto en negrita,
+        letras verdes y fondo amarillo</b>
+    </p>
+    <p>Otro ejemplo. Esta es una lista de la clase "colorido" que tiene</p>
+    <ul class="colorido">
+        <li>Texto en verde</li>
+        <li>Fondo amarillo</li>
+    </ul>
+    <p>Pero en el caso en que apliquemos la clase &quot;invertido&quot;
+        a una lista:
+    </p>
+    <ul class="invertido">
+        <li>Esta no tendrá ningún efecto porque la clase &quot;invertido&quot;
+            se puede aplicar sólo a los párrafos </li>
+    </ul>
+</body>
+</html>

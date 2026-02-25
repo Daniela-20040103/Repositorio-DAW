@@ -1,0 +1,7 @@
+.header{
+    text-align: center;
+    background-color: aquamarine;
+    flex-direction: column;
+    display: flex;
+    
+}

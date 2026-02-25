@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Ejemplo 1 tablas</title>
+    <!--Aplicamos estilos a la Tabla <table>. las celdas <td> y las celdas de Encabezado <th>-->
+    <style>
+        table{
+            width: 50%;
+            border-collapse: collapse; /* Tabla con línea simple */
+            caption-side: bottom; /* Posición de la leyenda debajo de la tabla */
+            /* Centramos la tabla en la página */
+            margin-left: auto;
+            margin-right: auto;
+        }
+        td, th {
+            border: 2px solid black;
+            padding: 15px; /* Márgenes de las celdas */
+        }
+        th{
+            text-align: left;
+            background-color: blue;
+            color: white;
+        }
+
+    </style>
+    </head>
+    <body>
+        <h1>Ranking OCU Marcas de Coches vs Fiabilidad</h1>
+        <table>
+            <caption><i>Mi primera tabla</i></caption>
+            <tr>
+                <th>Ranking</th>
+                <th>Marca</th>
+                <th>Fiabilidad</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Lexus</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>BMW</td>
+                <td>87</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>Volvo</td>
+                <td>82</td>
+            </tr>
+        </table>
+    </body>
+</html>

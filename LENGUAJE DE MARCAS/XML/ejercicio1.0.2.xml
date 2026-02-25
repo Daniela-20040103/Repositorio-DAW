@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE perro [
+<!ELEMENT perro (edad, nombre)>  <!--Siempre que introduzcamos los datos deben de ir en este orden-->
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT nombre (#PCDATA)>
+]>
+<perro>
+    <edad>8</edad>
+    <nombre>Pancho</nombre>
+</perro>

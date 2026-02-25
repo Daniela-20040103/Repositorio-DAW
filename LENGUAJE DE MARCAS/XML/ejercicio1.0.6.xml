@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE viajes [
+    <!ELEMENT viajes (austria, italia, francia)>
+    <!ELEMENT austria (ciudad+)>
+    <!ELEMENT italia (ciudad+)>
+    <!ELEMENT francia (ciudad+)>
+    <!ELEMENT ciudad (#PCDATA)>
+]>
+<!--<viajes>
+    <austria>
+        <viena/>      
+    </austria>      ->     •Las ciudades deben escribirse en elementos "ciudad".
+    <italia>
+        <florencia/>
+        <roma/>
+        <venecia/>
+    </italia>
+    <francia/>      ->    •El elemento "francia" no puede estar vacío
+</viajes>-->
+
+<viajes>
+    <austria>
+        <ciudad>viena</ciudad>
+    </austria>
+    <italia>
+        <ciudad>florencia</ciudad>
+        <ciudad>roma</ciudad>
+        <ciudad>venecia</ciudad>
+    </italia>
+    <francia>
+        <ciudad />
+    </francia>
+</viajes>

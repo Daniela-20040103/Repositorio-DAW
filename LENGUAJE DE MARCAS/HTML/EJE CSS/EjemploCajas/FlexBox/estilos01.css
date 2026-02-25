@@ -1,0 +1,28 @@
+/* Con box-sizing: border-box, el ancho y el alto definidos 
+incluyen el contenido, el padding y el border */
+*{
+    box-sizing: border-box;
+}
+/* APLICAMOS ESTILOS AL CONTENEDOR */
+.flex-container{
+   display: flex;  /* Convierte el elemento de la clase en un contenedor flexible */
+   background-color: aqua;
+   padding: 10px;
+   border: 2px solid black;
+   /* flex-direction:row;
+   flex-wrap: wrap */
+   
+}
+
+/* Aplicamos estilos a los elementos hijos */
+.flex-container div{
+    background-color: beige;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 200px; /*Altura del div y coloca el texto en el centro de la altura*/
+    font-size: 30px;
+    border: 5px solid blue;
+}
+
+

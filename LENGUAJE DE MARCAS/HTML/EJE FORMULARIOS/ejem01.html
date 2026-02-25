@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+    <style>
+        h1,h2 {font-family:Arial, Helvetica, sans-serif;}
+        h2{color: blue;}
+
+
+    </style>
+</head>
+<body>
+    <h1>Ejemplo 1 <br> Elementos o Etiquetas de los formularios </h1>
+    <form action="https://jkorperla.fi/cgi-bin/echo.cgi" method="post">
+        <!--Elementos de Entrada input type="text" y Etiqueta label para los inputs-->
+        <h2>Elementos <em>input y label</em></h2>
+        <p>En input de tipo texto definimos name que es el nombre de la variable que usamos cuando enviamos
+            el formulario, y el id que es el atributo que identifica que este input y luego poddemos usar 
+            la etiqueta label.  
+            En label usamos el atributo for para indicar a que input pertenece.
+        </p>
+        <label for="iNombre">Nombre</label>
+        <input type="text" name="Daniela" id="iNombre"><br>
+        <label for="iApellido">Apellido</label>
+        <input type="text" name="Benito" id="iApellido">
+
+        <!--Elemento Selector select-->
+        <h2>Elementos <em>select y label</em></h2>
+        <p>Select con options</p>
+        <label for="Colores">Elige un color</label>
+        <select name="colors" id="Colores" size="4">
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="yellow">Amarillo</option>
+            <option value="pink">Rosa</option>
+        </select><br>
+        <p>Selector con atributo múltiple me permite elegir varios colores usando ctrl+clic</p>
+        <select name="colors_M" id="Colores_Multiples">
+            <option value="red">Rojo</option>
+            <option value="blue">Azul</option>
+            <option value="yellow">Amarillo</option>
+            <option value="pink">Rosa</option>
+        </select><br>
+
+        <p>Select con optgroup y options</p>
+        <select name="carbrand" id="">
+            <optgroup label="Disponibles">
+                <option value="Seat">Seat</option>
+                <option value="Kia">Kia</option>
+            </optgroup>
+            <optgroup label="Sin Stock">
+                <option value="Ferrari">Ferrari</option>
+                <option value="Porsche">Porsche</option>
+            </optgroup>
+        </select>
+        <!--Elemento Lista de Opciones datalist-->
+        <h2>Elento <em>datalist</em></h2>
+        <label for="browser">Navegador Preferido:</label>
+        <input type="text" id="browser" name="browser" list="browsers">
+        <datalist id="browsers">
+            <option value="Google Chrome">Google Chrome</option>
+            <option value="Firefox">Firefox</option>
+            <option value="Safari">Safari</option>
+            <option value="Opera">Opera</option>
+            <option value="Edge">Edge</option>
+        </datalist>
+        <!--Elemento fieldset-->
+        <h2>Elemento <em>fieldset</em></h2>
+        <p>Permite agrupar un conjunto de campos de un formulario de forma visula
+            mediante un marco y de forma funcional permitiendo realizar acciones 
+            sobre todos los elementos agrupados.
+            Podemos usar la etiqueta "legend" para poner un texto de título al marco.
+        </p>
+        <fieldset>
+            <legend>Iniciar sesión</legend>
+            Email: <br>
+            <input type="email" name="Email"><br>
+            Password: <br>
+            <input type="password" name="Password" maxlength="10"> <br>
+        </fieldset>
+
+        <!--Elemento Caja de Texto textarea-->
+        <h2>Elemento <em>textarea</em></h2>
+        <label for="Comentarios">Escribe aquí tus comentarios</label><br>
+        <textarea name="texto" id="Comentarios"></textarea>
+
+
+    </form>
+</body>
+</html>

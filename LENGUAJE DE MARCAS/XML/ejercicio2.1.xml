@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<antologia>
+    <poema movimiento="Generación del 27">
+        <titulo>Romance de la luna, luna</titulo>
+        
+        <autor>
+            <nombre>Federico García Lorca</nombre>
+            <biografia>
+                <nacimiento>1898</nacimiento>
+                <muerte>1936</muerte>
+            </biografia>
+        </autor>
+        
+        <tematica>Muerte, misterio, folclore</tematica>
+        <estilo>Lirismo popular con metáforas vanguardistas</estilo>
+        
+        <contenido>
+            <estrofa tipo="octavilla">
+                <linea>La luna vino a la fragua</linea>
+                <linea>con su polisón de nardos.</linea>
+                <linea>El niño la mira, mira.</linea>
+                <linea>El niño la está mirando.</linea>
+            </estrofa>
+            </contenido>
+    </poema>
+    
+    <poema movimiento="Modernismo">
+        <titulo>Soledades</titulo>
+        <autor>
+            <nombre>Antonio Machado</nombre>
+            <biografia>
+                <nacimiento>1875</nacimiento>
+                <muerte>1939</muerte>
+            </biografia>
+        </autor>
+        <tematica>Introspección, paso del tiempo</tematica>
+        <estilo>Sencillez simbólica</estilo>
+        <contenido>
+            <estrofa>
+                <linea>He andado muchos caminos,</linea>
+                <linea>he abierto muchas veredas;</linea>
+            </estrofa>
+        </contenido>
+    </poema>
+</antologia>

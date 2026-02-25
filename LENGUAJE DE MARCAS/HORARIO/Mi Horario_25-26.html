@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Horario 25-26</title>
+    <style>
+        #horario {
+            border: 1px transparent;
+            border-radius: 7px;
+            width: 90%;
+            height: auto;
+            text-align: center;
+        }
+        /* regla para celdas de la tabla #horario */
+        #horario td {
+            border: 3px solid black;
+            height: 50px;
+            border-radius: 7px;
+            font-weight: bold;
+        }
+        #dia {
+            background: linear-gradient(rgb(28, 28, 147), rgb(35, 145, 223));
+            border-radius: 7px;
+            width: 50px;
+            color: white;
+        }
+        #horas {
+            background: linear-gradient(rgb(28, 28, 147), rgb(35, 145, 223));
+            border-radius: 7px;
+            width: 40px;
+            color: white;
+        }
+        #LM {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;  
+        }
+        #ISO {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;   
+        }
+        #IPE {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;    
+        }
+        #FH {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;  
+        }
+        #GBD {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px; 
+        }
+        #PAR {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;
+        }
+        #FP {
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;
+        }
+        #TUT{ 
+            background: linear-gradient(rgb(255, 255, 255), rgb(116, 117, 93));
+            border-radius: 7px;
+        }
+        #logo {
+            width: 250px;
+            height: auto;
+        }
+        #recreo {
+            background: linear-gradient(rgb(28, 28, 147), rgb(35, 145, 223));
+            border-radius: 7px;
+            color: white;
+        }
+        #profesores {
+            border: 2px solid rgb(255, 255, 255);
+            color: rgb(255, 255, 255);
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body style="background-image: url('madrid.png'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-attachment: fixed;">
+    <table id="horario">
+        <caption style="font-size: 36px;">Horario de clase Curso 25-26</caption>
+        <tr style="color: white; font-size: 20px"><a id="profesores" href="PROFESORES.html">PROFESORES</a>Pulsa para ver tabla de profesores</tr>
+        <tr>
+            <th border-radius: 7px; colspan="6" style="background-color: none; font-size:50px;" > <a href="https://site.educa.madrid.org/ies.claradelrey.madrid/"><img src="imagen.png" id="logo" alt="Logo IES clara del rey"></a><a href="https://site.educa.madrid.org/ies.claradelrey.madrid/  ">SR1A</a></th>
+        </tr>
+        <tr>
+            <td style="background-color: none; border: none;"></td>
+            <td id="dia">Lunes</td>
+            <td id="dia">Martes</td>
+            <td id="dia">Miércoles</td>
+            <td id="dia">Jueves</td>
+            <td id="dia">Viernes</td>
+        </tr>
+        <tr>
+            <td id="horas">8:20-9:15</td>
+            <td id="LM">LM</td>
+            <td id="ISO" rowspan="2">ISO</td>
+            <td id="ISO" rowspan="2">ISO</td>
+            <td id="GBD" rowspan="2">GBD</td>
+            <td id="FH">FH</td>
+        </tr>
+        <tr>
+            <td id="horas">9:15-10:10</td>
+            <td id="IPE">IPE</td>
+            <td id="PAR" rowspan="2">PAR</td>
+        </tr>
+        <tr>
+            <td id="horas">10:10-11:05</td>
+            <td id="FH">FH</td>
+            <td id="GBD">GBD</td>
+            <td id="IPE">IPE</td>
+            <td id="LM">LM</td>
+        </tr>
+        <tr>
+            <td id="horas">11:05-11:30</td>
+            <td id="recreo" colspan="5" style="text-align: center;">RECREO</td>
+        </tr>
+        <tr>
+            <td id="horas">11:30-12:25</td>
+            <td id="FH">FH</td>
+            <td id="GBD">GBD</td>
+            <td id="IPE">IPE</td>
+            <td id="LM">LM</td>
+            <td id="ISO" rowspan="3">ISO</td>
+        </tr>
+        <tr>
+            <td id="horas">12:25-13:20</td>
+            <td id="FP" rowspan="2">FP</td>
+            <td id="PAR" rowspan="2">PAR</td>
+            <td id="GBD" rowspan="2">GBD</td>
+            <td id="PAR" rowspan="2">PAR</td>
+        </tr>
+        <tr>
+            <td id="horas">13:20-14:15</td>
+        </tr>
+        <tr>
+            <td id="horas">14:15-15-10</td>
+            <td id="TUT">TUT</td>
+            <td colspan="4" style="border-color: transparent;"></td>
+        </tr>
+    </table>  
+</body>
+</html>

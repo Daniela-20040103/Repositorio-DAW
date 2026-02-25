@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+}
+h2{
+    text-align: center;
+    line-height: 230px;
+}
+.caja1{
+    background-color: rgb(233, 155, 10);
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+.caja2{
+    background-color: rgb(8, 137, 49);
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+.caja3{
+    background-color: rgb(29, 44, 251);
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+.caja4{
+    background-color: palevioletred;
+    width: 500px;
+    height: 300px;
+    float: right;
+}
+.caja5{
+    background-color: yellow;
+    width: 500px;
+    height: 300px;
+    float: left;
+}
