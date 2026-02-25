@@ -1,0 +1,9 @@
+# Extensiones comunes a ignorar
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Carpetas de configuración de editores
+.vscode/
+.idea/
