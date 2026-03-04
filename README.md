@@ -2,7 +2,8 @@
 UT4: Optimización y Documentación - DAW 1
 
 👥 Integrantes del Equipo
-Daniela
+
+Daniela Benito
 
 Cesilia Matos
 
