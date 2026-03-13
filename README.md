@@ -32,7 +32,7 @@ Navegador Web: Para pruebas de Lenguaje de Marcas.
 
 🚀 Instrucciones de Uso
 Clonar el repositorio:
-git clone https://github.com/Daniela-20040103/apuntes-daw.git
+git clone https://github.com/Daniela-20040103/Repositorio-DAW.git
 
 Crear una rama propia para trabajar:
 git checkout -b rama-tu-nombre
